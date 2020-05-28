@@ -1,18 +1,8 @@
 .experience {
   background: #4c6d86;
-
+  padding: 2em 6em;
   font-weight: 550;
-
-  padding: 2em 0em;
-}
-
-.experience div {
-  text-align: center !important;
-}
-
-.experience svg {
-  font-size: 4em;
-  color: rgb(255, 138, 89);
+  color: #BBD2FF;
 }
 
 .experience h3 {
@@ -22,6 +12,5 @@
 }
 
 .experience p {
-  color: #bbd2ff;
   margin: 0;
 }

@@ -3,12 +3,12 @@ import {Row, Col} from 'reactstrap';
 
 import cx from 'classnames';
 
-import styles from './Project.module.css';
+import styles from './Card.module.css';
 
-const Project = (props) => {
+const Card = (props) => {
   const {image, title, description,  website, reverse} = props;
   return (
-    <Row className={styles.project}>
+    <Row className={styles.card}>
       <Col xs={12} md={{size: 6, order: reverse ? 2 : 1}}>
         <h2 className="d-md-none d-block text-weight-bolder text-center">{title}</h2>
         <img src={process.env.PUBLIC_URL + "/images/" + image} alt="" />
@@ -24,4 +24,4 @@ const Project = (props) => {
   )
 }
 
-export default Project;
+export default Card;
