@@ -11,13 +11,12 @@ const About = () => {
   <section style={styles.about} className="flex-column">
 			<div style={styles.profileImg}></div>
 			<div style={styles.details}>
-				<h2 style={styles.title}>Hi, I'm Daniel.<br />
-        <span style={styles.span}>
-        <Typed
+				<h2 style={styles.title} className="font-weight-bold">Hi, I'm Daniel.<br />
+        <Typed className="font-weight-light"
           strings={['I solve problems', 'I solve complex problems', 'I solve your problems.']}
           backSpeed={70}
           typeSpeed={60}
-          /></span></h2>
+          /></h2>
 			</div>
 			<div><a class="my-button" href="mailto:daniel.cortild@gmail.com">Get In Touch</a></div>
 
@@ -61,11 +60,6 @@ var styles = {
     color: '#646464',
 		fontSize: '3.8em',
 		paddingBottom: '1em'
-  },
-  span: {
-    fontWeight: '300',
-		fontSize: '.7em',
-    color: '#CCC'
   }
 }
 

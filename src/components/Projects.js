@@ -12,13 +12,13 @@ const Projects = () => {
       </Row>
 
       <Card
-        image="project1.png"
+        image="covid.png"
         title="Covid-19 Tracker"
         description="This project allows you to see the actual status of the coronavirus (Infected, Deaths and Recovered) in every country."
         website="https://danielcortild.github.io/Covid19Tracker/"/>
 
       <Card reverse
-        image="project2.png"
+        image="airport.png"
         title="Airport Locator"
         description="This Google Maps project allows its user to locate airports close to a certain location."
         website="https://danielcortild.github.io/AirportLocator/"/>

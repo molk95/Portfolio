@@ -41,6 +41,7 @@ svg {
   margin-top: 5px;
   margin-right: 13px;
   margin-left: 13px;
+  transition: 0.5s;
 }
 svg:hover {
   color: #111;
