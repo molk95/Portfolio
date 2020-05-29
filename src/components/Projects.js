@@ -7,8 +7,8 @@ const Projects = () => {
   return (
     <section style={{background: "#ffffff"}} className="py-2 pb-5">
       <Row className="mt-5 mb-2 mb-md-3">
-        <h1 className="m-auto text-center display-md-4 font-weight-bold">Previous Projects</h1>
-        <h4 className="w-100 text-center font-weight-normal text-muted">Here is a collection of some of my projects</h4>
+        <h1 className="m-auto text-center display-md-4 font-weight-bold" style={{color: "rgb(255, 103, 68)"}}>Previous Projects</h1>
+        <h4 className="w-100 text-center font-weight-normal text-muted mt-4">Here is a collection of some of my projects</h4>
       </Row>
 
       <Card

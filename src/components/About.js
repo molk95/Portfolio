@@ -8,7 +8,7 @@ const About = () => {
 
 
   return (
-    <Row style={styles.about} className="flex-column">
+  <section style={styles.about} className="flex-column">
 			<div style={styles.profileImg}></div>
 			<div style={styles.details}>
 				<h2 style={styles.title}>Hi, I'm Daniel.<br />
@@ -30,7 +30,7 @@ const About = () => {
         </a>
 			</div>
 
-		</Row>
+		</section>
   )
 }
 

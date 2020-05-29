@@ -5,9 +5,9 @@ import Card from './Cards/Card';
 
 const Teaching = () => {
   return (
-    <section style={{background: "#a6a6a6"}} className="py-3">
-      <h1 className="mt-5 mb-2 mb-md-3 mx-auto text-center display-md-4 font-weight-bold">Coaching</h1>
-      <h4 className="w-50 mx-auto font-weight-normal text-muted">I have enjoyed transfering knowledge to others for the last couple of years, having taught coding both in person and online</h4>
+    <section style={{background: "#d4d4d4"}} className="py-3">
+      <h1 className="mt-5 mb-2 mb-md-3 mx-auto text-center display-md-4 font-weight-bold" style={{color: "rgb(255, 103, 68)"}}>Coaching</h1>
+      <h4 className="w-50 mx-auto font-weight-normal text-muted mt-4 text-center">I have enjoyed transfering knowledge to others for the last couple of years, having taught coding both in person and online</h4>
 
       <Card
         image="techieslab.png"

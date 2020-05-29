@@ -15,8 +15,8 @@ const Card = (props) => {
       </Col>
       <Col xs={12} md={{size: 6, order: 1}}>
         <div className="pt-3 pt-md-0">
-          <h2 className="d-none d-md-block text-weight-bolder">{title}</h2>
-          <p className="mb-4">{description}</p>
+          <h2 className="d-none d-md-block text-secondary" style={{fontWeight: "700"}}>{title}</h2>
+          <p className="mb-4 text-secondary" style={{fontSize: "1.2em", fontWeight: "550"}}>{description}</p>
           <a className="my-button" target="_blank" href={website}>Visit Website</a>
         </div>
       </Col>
