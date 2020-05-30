@@ -19,7 +19,7 @@ const About = () => {
 			</div>
 			<div><a className="my-button" href="mailto:daniel.cortild@gmail.com">Get In Touch</a></div>
 
-			<div class="text-center mt-4">
+			<div className="text-center mt-4">
 				<a href="https://github.com/DanielCortild">
           <FaGithub size="28"/>
         </a>

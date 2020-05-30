@@ -9,8 +9,8 @@ const Contact = () => {
         <h1 className="m-auto text-center display-md-4 font-weight-bold text-white">Interested in working with me?</h1>
         <h4 className="w-100 text-center font-weight-normal text-white mt-3">I am currently available</h4>
       </Row>
-      <div class="mt-5 mb-3">
-        <a class="my-button border-white" href="mailto:daniel.cortild@gmail.com">Start Now</a>
+      <div className="mt-5 mb-3">
+        <a className="my-button border-white" href="mailto:daniel.cortild@gmail.com">Start Now</a>
       </div>
     </section>
   )
