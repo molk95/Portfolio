@@ -14,11 +14,10 @@ const About = () => {
 				<h2 style={styles.title} className="font-weight-bold">Hi, I'm Daniel.<br />
         <Typed className="font-weight-light"
           strings={['I solve problems', 'I solve complex problems', 'I solve your problems.']}
-          backSpeed={70}
-          typeSpeed={60}
+          backSpeed={70} typeSpeed={60} backDelay={1000}
           /></h2>
 			</div>
-			<div><a class="my-button" href="mailto:daniel.cortild@gmail.com">Get In Touch</a></div>
+			<div><a className="my-button" href="mailto:daniel.cortild@gmail.com">Get In Touch</a></div>
 
 			<div class="text-center mt-4">
 				<a href="https://github.com/DanielCortild">

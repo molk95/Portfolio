@@ -16,7 +16,7 @@ const styles = {
     color: "#FFF",
     fontFamily: "'Maven pro', sans-serif",
     fontSize: "1.4em",
-    padding: ".4em"
+    padding: ".6em .4em"
   }
 }
 
