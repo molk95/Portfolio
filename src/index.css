@@ -2,6 +2,11 @@ body {
   overflow-x: hidden;
 }
 
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700');
 
 .my-button {
