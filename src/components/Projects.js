@@ -1,7 +1,7 @@
 import React from 'react';
-import {Row} from 'reactstrap';
-
+import { Row } from 'reactstrap';
 import Card from './Cards/Card';
+
 
 const Projects = () => {
   return (
@@ -14,20 +14,20 @@ const Projects = () => {
       <Card
         image="covid.png"
         title="Covid-19 Tracker"
-        description="This project allows you to see the actual status of the coronavirus (Infected, Deaths and Recovered) in every country."
-        website="https://danielcortild.github.io/Covid19Tracker/"/>
+        description="This project is build in ReactJS, using an API tracking the Covid-19 data and ChartJS2 for plotting the data."
+        websites={[{link: "https://danielcortild.github.io/Covid19Tracker/"}]}/>
 
       <Card reverse
         image="airport.png"
         title="Airport Locator"
-        description="This Google Maps project allows its user to locate airports close to a certain location."
-        website="https://danielcortild.github.io/AirportLocator/"/>
+        description="This project fetches data from an external API, and places markers on a Leaflet WikiMedia Map."
+        websites={[{link: "https://danielcortild.github.io/AirportLocator/"}]}/>
 
       <Card
         image="tictactoe.png"
         title="TicTacToe"
-        description="Web interface of a Artificial IntelligenceTicTacToe Agent."
-        website="https://cssm-tictactoe.herokuapp.com/"/>
+        description="Web interface of a Artificial IntelligenceTicTacToe Agent.<br /> The agents are training based on the following <a href='https://ia601402.us.archive.org/18/items/IA_dans_les_jeux/L_IA_dans_les_jeux%20%283%29.pdf'>article</a> (Only in French)."
+        websites={[{link: "https://cssm-tictactoe.herokuapp.com/"}]}/>
     </section>
   )
 }

@@ -21,7 +21,7 @@ const Experience = () => {
         <p className="m-0">Bootstrap</p>
         <p className="m-0">JavaScript</p>
         <p className="m-0">JQuery</p>
-        <p className="m-0">React</p>
+        <p className="m-0">ReactJS</p>
       </Col>
       <Col className="text-center">
         <AiOutlineCloudServer size="4em" color="#FF8A59"/>
@@ -30,6 +30,8 @@ const Experience = () => {
         <p className="m-0">NPM</p>
         <p className="m-0">ExpressJS</p>
         <p className="m-0">MySQL</p>
+        <p className="m-0">Ruby on Rails</p>
+        <p className="m-0">R Programming</p>
       </Col>
       <Col className="text-center">
         <AiFillTool size="4em" color="#FF8A59"/>
