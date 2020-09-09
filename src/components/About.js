@@ -11,19 +11,19 @@ const About = () => {
   <section style={styles.about} className="flex-column">
 			<div style={styles.profileImg}></div>
 			<div style={styles.details}>
-				<h2 style={styles.title} className="font-weight-bold">Hi, I'm Daniel.<br />
+				<h2 style={styles.title} className="font-weight-bold">Hi, I'm Molk.<br />
         <Typed className="font-weight-light"
           strings={['I solve problems', 'I solve complex problems', 'I solve your problems.']}
           backSpeed={70} typeSpeed={60} backDelay={1000}
           /></h2>
 			</div>
-			<div><a className="my-button" href="mailto:daniel.cortild@gmail.com">Get In Touch</a></div>
+			<div><a className="my-button" href="mailto:molk.saouabi@gmail.com">Get In Touch</a></div>
 
 			<div className="text-center mt-4">
-				<a href="https://github.com/DanielCortild">
+				<a href="https://github.com/molk95">
           <FaGithub size="28"/>
         </a>
-				<a href="https://www.linkedin.com/in/daniel-cortild-67413a166/">
+				<a href="https://www.linkedin.com/in/molk-saouabi">
           <FaLinkedin size="28"/>
         </a>
 			</div>
@@ -42,7 +42,7 @@ var styles = {
     textAlign: 'center'
   },
   profileImg: {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/images/profile.jpg)`,
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/profile.jpeg)`,
     width: '200px',
     height: '200px',
     margin: '0 auto',

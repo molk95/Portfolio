@@ -7,15 +7,15 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^4.5.2",
     "classnames": "^2.2.6",
-    "gh-pages": "^3.0.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-icons": "^3.10.0",
-    "react-scripts": "3.4.1",
+    "react-icons": "^3.11.0",
+    "react-scripts": "^3.4.3",
     "react-typed": "^1.2.0",
-    "reactstrap": "^8.4.1",
+    "reactstrap": "^8.5.1",
     "typed.js": "^2.0.11"
   },
   "scripts": {
@@ -40,5 +40,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molk95/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "molk saouabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molk95/Portfolio/issues"
   }
 }
